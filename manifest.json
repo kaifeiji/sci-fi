@@ -1,0 +1,19 @@
+{
+  "name": "sci-fi",
+  "label": "Sci-fi",
+  "type": "theme",
+  "version": "1.21.0",
+  "exbVersion": "1.21.0",
+  "author": "Allen Zhang",
+  "description": "An Sci-fi theme.",
+  "copyright": "",
+  "license": "http://www.apache.org/licenses/LICENSE-2.0",
+  "translatedLocales": [
+    "en"
+  ],
+  "isNewTheme": true,
+  "themeCustomizable": true,
+  "styleFiles": {
+    "js": true
+  }
+}
