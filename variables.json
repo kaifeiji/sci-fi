@@ -115,9 +115,10 @@
     },
     "typeface": {
       "customFonts": [
-        { "name": "Nippo" }
+        { "name": "Nippo" },
+        { "name": "Exo 2" }
       ],
-      "fontFamily": "Nippo"
+      "fontFamily": "Exo 2"
     }
   },
   "sys": {
@@ -312,10 +313,116 @@
       "shadow2": "0 4px 8px -1px rgba(0,0,0,4%), 0 2px 4px -1px rgba(0,0,0,4%)",
       "shadow3": "0 6px 20px -4px rgba(0,0,0,10%), 0 4px 12px -2px rgba(0,0,0,8%)"
     },
+    "spacing": [
+			0,
+			"0.25rem",
+			"0.5rem",
+			"0.75rem",
+			"1rem",
+			"1.25rem",
+			"1.5rem",
+			"1.75rem",
+			"2rem",
+			"2.25rem",
+			"2.5rem",
+			"2.75rem",
+			"3rem"
+		],
     "typography": {
       "h1": {
-        "fontSize": "4em",
-        "lineHeight": "2"
+        "fontFamily": "Nippo",
+        "fontSize": "6em",
+        "fontWeight": 700,
+        "lineHeight": "1.125em",
+        "letterSpacing": "0.04em",
+        "textTransform": "capitalize"
+      },
+      "h2": {
+        "fontFamily": "Nippo",
+        "fontSize": "3.75em",
+        "fontWeight": 700,
+        "lineHeight": "1.125em",
+        "textTransform": "capitalize"
+      },
+      "h3": {
+        "fontFamily": "Nippo",
+        "fontSize": "3em",
+        "fontWeight": 700,
+        "lineHeight": "1.125em",
+        "textTransform": "capitalize"
+      },
+      "h4": {
+        "fontFamily": "Nippo",
+        "fontSize": "2.125em",
+        "fontWeight": 700,
+        "lineHeight": "1.125em",
+        "textTransform": "capitalize"
+      },
+      "h5": {
+        "fontFamily": "Nippo",
+        "fontSize": "1.5em",
+        "fontWeight": 700,
+        "lineHeight": "1.125em",
+        "textTransform": "capitalize"
+      },
+      "h6": {
+        "fontFamily": "Nippo",
+        "fontSize": "1.25em",
+        "fontWeight": 700,
+        "lineHeight": "1.5em",
+        "textTransform": "capitalize"
+      },
+      "title1": {
+        "fontFamily": "Nippo",
+        "fontSize": "1em",
+        "fontWeight": 500,
+        "lineHeight": "1.5em"
+      },
+      "title2": {
+        "fontFamily": "Nippo",
+        "fontSize": "0.875em",
+        "fontWeight": 500,
+        "lineHeight": "1.428571em"
+      },
+      "title3": {
+        "fontFamily": "Nippo",
+        "fontSize": "0.75em",
+        "fontWeight": 500,
+        "lineHeight": "1.333333em",
+        "letterSpacing": "0.04em"
+      },
+      "body": {
+        "fontFamily": "Exo 2",
+        "fontSize": "1em",
+        "fontWeight": 400,
+        "lineHeight": "1.5em"
+      },
+      "label1": {
+        "fontFamily": "Exo 2",
+        "fontSize": "1em",
+        "fontWeight": 500,
+        "lineHeight": "1.5em",
+        "letterSpacing": "0.0125em"
+      },
+      "label2": {
+        "fontFamily": "Exo 2",
+        "fontSize": "0.875em",
+        "fontWeight": 500,
+        "lineHeight": "1.428571em",
+        "letterSpacing": "0.0125em"
+      },
+      "label3": {
+        "fontFamily": "Exo 2",
+        "fontSize": "0.75em",
+        "fontWeight": 500,
+        "lineHeight": "1.333333em",
+        "letterSpacing": "0.04em"
+      },
+      "inputField": {
+        "fontFamily": "Exo 2",
+        "fontSize": "0.875em",
+        "fontWeight": 400,
+        "lineHeight": "1.428571em"
       }
     }
   },

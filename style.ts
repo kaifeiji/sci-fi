@@ -6,6 +6,8 @@ export const CssBaseline: ComponentStyleOverrides<'CssBaseline', IMThemeVariable
     const rootUrl = styleState.rootUrl || ''
     const rootBase = rootUrl && !rootUrl.endsWith('/') ? `${rootUrl}/` : rootUrl
     return `
+      @import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@400;500&display=swap');
+
       /* Nippo */
       @font-face {
         font-family: 'Nippo';
